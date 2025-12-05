@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Card</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f7eedd;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #ff9f43;
+            padding: 15px;
+            color: white;
+        }
+
+        /* FLEXBOX CONTAINER */
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        /* PROFILE CARD */
+        .card {
+            width: 300px;
+            background-color: #fff4d6;
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .details p {
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        .btn {
+            background-color: #ff8e32;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Student Profile Card</h1>
+
+<div class="profile-container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Student Photo">
+
+        <div class="details">
+            <p><strong>Name:</strong> vanshika Sharma</p>
+            <p><strong>Course:</strong> B.Tech ESE</p>
+            <p><strong>Year:</strong> 1st Year</p>
+            <p><strong>Email:</strong> vanshika@example.com</p>
+        </div>
+
+        <button class="btn">View More</button>
+    </div>
+
+</div>
+
+</body>
+</html>
