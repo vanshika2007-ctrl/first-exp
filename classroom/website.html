@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Edunova</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+
+.header{
+    display:flex;
+    align-items:center;
+    padding:15px 40px;
+    background:#fff;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#e80071;
+    margin-right:30px;
+}
+
+.search{
+    flex:1;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+
+.categories{
+    display:flex;
+    justify-content:space-around;
+    background:#fff;
+    padding:12px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.categories a{
+    text-decoration:none;
+    color:#555;
+    font-size:14px;
+}
+
+.banner{
+    background:#fdecef;
+    padding:60px;
+    text-align:center;
+}
+
+.banner h1{
+    font-size:36px;
+}
+
+.banner p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+.banner button{
+    padding:12px 25px;
+    background:black;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.products{
+    background:#fff;
+    margin:20px;
+    padding:40px;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:15px;
+    text-align:center;
+    border-radius:8px;
+    background:#fafafa;
+}
+
+.card img{
+    width:100%;
+    border-radius:5px;
+}
+
+.card p{
+    margin:10px 0;
+    font-weight:bold;
+}
+
+.card span{
+    color:#e80071;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#eee;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">EDUNOVA</div>
+    <input type="text" class="search" placeholder="Search for course">
+    <div class="nav">
+        <a href="#">Download App</a>
+        <a href="#">faculty</a>
+        <a href="#">Profile</a>
+        <a href="#">your course</a>
+    </div>
+</div>
+
+<div class="categories">
+    <a href="#">all courses</a>
+    <a href="#">gurukul</a>
+    <a href="#">store</a>
+    <a href="#">e-books</a>
+    <a href="#">tests</a>
+    <a href="#">dpp series</a>
+    <a href="#">upskillings</a>
+    <a href="#">power batch</a>
+</div>
+
+<div class="banner">
+    <h1>Lowest Prices<br>Best Quality education</h1>
+    <p>Trusted by youths of Indians</p>
+    <button>Download Edunova App</button>
+</div>
+
+<div class="products">
+    <h2>Top Categories to choose from</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://earthschooling.info/thebearthinstitute/wp-content/uploads/2022/06/Sixth-Grade-Geography-LL-Icon.jpg">
+            <p>foundations</p>
+           
+        </div>
+
+        <div class="card">
+            <img src="https://wallpapers.com/images/hd/bright-upsc-statue-wnpicwyu3dm8h4g7.jpg">
+            <p>upsc</p>
+           
+        </div>
+
+        <div class="card">
+            <img src="https://tse4.mm.bing.net/th/id/OIF.xdeom5wPiZRl7IttmY1hKA?pid=Api&P=0&h=180">
+            <p>Jee</p>
+          
+        </div>
+
+        <div class="card">
+            <img src="https://img.jagranjosh.com/images/2023/March/2432023/NEET-UG-2023-update-(3).jpg">
+            <p>neet</p>
+           
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2026 edunova | Educational Purpose Only
+</footer>
+
+</body>
+</html>
